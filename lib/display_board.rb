@@ -8,8 +8,8 @@ def display_board(board)
   puts"-----------"
   puts"   |   |   "
 end
-#board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
-# board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
-# board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
-#board == ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
+board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
+board == ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 display_board(board)
